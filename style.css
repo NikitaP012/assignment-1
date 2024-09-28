@@ -1,0 +1,321 @@
+/* body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.form {
+
+    width: 50%;
+    display: flex;
+    height: 100vh;
+}
+
+.image {
+    background-image: url("/assets/blog-st-01.png");
+    width: 40%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: 90px;
+
+}
+
+#logo {
+    width: 100px;
+
+    height: auto;
+
+}
+
+.logo-text {
+    display: grid;
+
+    grid-template-rows: auto auto;
+
+    gap: 0px;
+    margin-right: 80px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    margin-top: -580px;
+
+}
+
+h1,
+h3 {
+    margin: 0;
+
+    padding: 0;
+    margin-right: 50px;
+    line-height: 1;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
+.header p {
+    margin-left: 80px;
+    flex-shrink: 0;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+
+    color: lightgreen;
+    border-color: gray;
+    border-radius: 50px;
+    width: 25%;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+
+
+
+.login-section {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #a4c7ed;
+
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.login-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.forgot-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
+
+.forgot-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-links a:hover {
+    text-decoration: underline;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo-text {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 0px;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-left: 20px;
+}
+
+button#enroll {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adjust the login-section to take full width */
+.login-section {
+    margin-top: 20px;
+    text-align: center;
+    flex-grow: 1;  /* Ensure it grows to fill space */
+}
+
+.login-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Take full width */
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px; /* Restrict max width */
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.forgot-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
+
+.forgot-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-links a:hover {
+    text-decoration: underline;
+}
